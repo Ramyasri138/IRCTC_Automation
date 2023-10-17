@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel ="classes">
+    <classes>
+      <class name="IRCTC.Registration"/>
+      <class name="IRCTC.Dailydeals"/>
+      <class name="IRCTC.Hotel_Rooms"/>
+      <class name="IRCTC.Train"/>
+      <class name="IRCTC.Contact"/>
+      <class name="IRCTC.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

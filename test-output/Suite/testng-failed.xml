@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="IRCTC.Registration">
+        <methods>
+          <include name="close"/>
+          <include name="Edge"/>
+          <include name="Register"/>
+        </methods>
+      </class> <!-- IRCTC.Registration -->
+      <class name="IRCTC.Contact">
+        <methods>
+          <include name="close"/>
+          <include name="Contactus"/>
+          <include name="Contactirctc"/>
+        </methods>
+      </class> <!-- IRCTC.Contact -->
+      <class name="IRCTC.Train">
+        <methods>
+          <include name="close"/>
+          <include name="TrainSearch"/>
+          <include name="Trainbooking"/>
+        </methods>
+      </class> <!-- IRCTC.Train -->
+      <class name="IRCTC.Dailydeals">
+        <methods>
+          <include name="Close"/>
+          <include name="Deals"/>
+          <include name="Amazonlogin"/>
+        </methods>
+      </class> <!-- IRCTC.Dailydeals -->
+      <class name="IRCTC.Login">
+        <methods>
+          <include name="close"/>
+          <include name="Signin"/>
+          <include name="Contactus"/>
+          <include name="Password"/>
+          <include name="USRNAME"/>
+        </methods>
+      </class> <!-- IRCTC.Login -->
+      <class name="IRCTC.Hotel_Rooms$Hotel">
+        <methods>
+          <include name="buses"/>
+          <include name="close"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- IRCTC.Hotel_Rooms$Hotel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
